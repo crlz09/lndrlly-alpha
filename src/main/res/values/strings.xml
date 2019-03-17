@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="History">History</string>
+    <string name="Plans">Offers</string>
+    <string name="Profile">Profile</string>
+    <string name="Settings">Settings</string>
+
+    <string name="welcome"> Sign up and be part of the Laundrelly Family.\nStart to enjoy our benefits and worry less for\nyour laundry days!</string>
+    <string name="welcomeBack">Sign in with your associate number or your\nemail account and you are ready for more\nclean clothes!</string>
+    <string name="location">Let us know if we can get to you.\nPlease insert your current address and\nspecify your zip code.</string>
+    <string name="verification">We have sent you a code via SMS to verify\nyour account. It can take up to 5 minutes.</string>
+
+
+</resources>
