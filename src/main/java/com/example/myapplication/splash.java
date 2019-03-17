@@ -24,7 +24,7 @@ public class splash extends Activity {
             @Override
             public void run() {
                 // Do something after 3s = 3000ms
-                Intent go = new Intent(getApplicationContext(), SignUp.class);
+                Intent go = new Intent(getApplicationContext(), IntroActivity.class);
                 startActivity(go);
                 finish();
             }

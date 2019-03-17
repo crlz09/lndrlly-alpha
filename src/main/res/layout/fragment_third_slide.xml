@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdSlide">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#0dd5b2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="36dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="50dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:text="Just say where\nand when"/>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/third"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Select the time and location for\nPick up and drop off."
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -14,5 +14,8 @@
     <string name="location">Let us know if we can get to you.\nPlease insert your current address and\nspecify your zip code.</string>
     <string name="verification">We have sent you a code via SMS to verify\nyour account. It can take up to 5 minutes.</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 </resources>

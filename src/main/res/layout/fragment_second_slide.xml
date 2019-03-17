@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondSlide">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:background="#fad08c">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="36dp"
+           android:paddingLeft="30dp"
+           android:paddingTop="50dp"
+           android:textColor="#FFFFFF"
+           android:textStyle="bold"
+           android:text="Start washing!"/>
+
+       <pl.droidsonroids.gif.GifImageView
+           android:layout_width="match_parent"
+           android:layout_height="500dp"
+           android:scaleType="fitCenter"
+           android:src="@drawable/second"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:text="Select what you want to wash\nand your laundry preferences"
+           android:textColor="#FFFFFF"
+           android:textSize="22sp" />
+
+
+
+
+   </LinearLayout>
+</FrameLayout>
