@@ -3,36 +3,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondSlide">
+    tools:context=".Fragments.SecondSlide">
 
    <LinearLayout
        android:layout_width="match_parent"
        android:layout_height="match_parent"
        android:orientation="vertical"
-       android:background="#fad08c">
+       android:background="#fad08c"
+       android:weightSum="10">
 
        <TextView
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
-           android:textSize="36dp"
-           android:paddingLeft="30dp"
-           android:paddingTop="50dp"
+           android:textSize="36sp"
+           android:layout_marginStart="@dimen/activity_horizontal_margin"
+           android:gravity="center_vertical"
            android:textColor="#FFFFFF"
            android:textStyle="bold"
-           android:text="Start washing!"/>
+           android:text="@string/title_second_slide"
+           android:layout_weight="4"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
 
-       <pl.droidsonroids.gif.GifImageView
-           android:layout_width="match_parent"
-           android:layout_height="500dp"
-           android:scaleType="fitCenter"
-           android:src="@drawable/second"/>
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:baselineAlignBottom="false"
+                android:scaleType="fitCenter"
+                android:src="@drawable/second" />
+
+        </LinearLayout>
        <TextView
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
-           android:gravity="center"
-           android:text="Select what you want to wash\nand your laundry preferences"
+           android:gravity="center_horizontal"
+           android:layout_marginRight="@dimen/textInputHeight"
+           android:layout_marginLeft="@dimen/textInputHeight"
+           android:text="@string/caption_second_slide"
            android:textColor="#FFFFFF"
-           android:textSize="22sp" />
+           android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+           android:layout_weight="4"/>
 
 
 

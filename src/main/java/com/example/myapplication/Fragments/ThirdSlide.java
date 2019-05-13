@@ -1,22 +1,26 @@
-package com.example.myapplication;
+package com.example.myapplication.Fragments;
 
+import android.Manifest;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.myapplication.R;
+
 import agency.tango.materialintroscreen.SlideFragment;
+import agency.tango.materialintroscreen.SlideFragmentBuilder;
 
-public class firstSlide extends SlideFragment {
+public class ThirdSlide extends SlideFragment {
 
-    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        final View view = inflater.inflate(R.layout.fragment_first_slide, container, false);
+        View view = inflater.inflate(R.layout.fragment_third_slide, container, false);
 
         return view;
     }
@@ -35,6 +39,5 @@ public class firstSlide extends SlideFragment {
     public boolean canMoveFurther() {
         return true;
     }
-
 
 }

@@ -3,36 +3,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ThirdSlide">
+    tools:context=".Fragments.ThirdSlide">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="#0dd5b2">
+        android:background="#0dd5b2"
+        android:weightSum="10">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="36dp"
-            android:paddingLeft="30dp"
-            android:paddingTop="50dp"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_weight="4"
+            android:gravity="center_vertical"
+            android:text="@string/title_third_slide"
             android:textColor="#FFFFFF"
-            android:textStyle="bold"
-            android:text="Just say where\nand when"/>
+            android:textSize="36sp"
+            android:textStyle="bold" />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
         <pl.droidsonroids.gif.GifImageView
             android:layout_width="match_parent"
-            android:layout_height="500dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:src="@drawable/third"/>
+            android:src="@drawable/third" />
+        </LinearLayout>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Select the time and location for\nPick up and drop off."
-            android:textColor="#FFFFFF"
-            android:textSize="22sp" />
+            android:layout_weight="4"
+            android:layout_marginRight="@dimen/textInputHeight"
+            android:layout_marginLeft="@dimen/textInputHeight"
+            android:gravity="center_horizontal"
+            android:text="@string/caption_third_slide"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FFFFFF" />
 
 
 

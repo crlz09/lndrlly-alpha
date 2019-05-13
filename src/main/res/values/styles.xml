@@ -19,7 +19,7 @@
 
     <style name="FormTheme" parent="Theme.AppCompat.Light.NoActionBar">
 
-        <item name="android:windowBackground">@drawable/bgform</item>
+        <item name="android:windowBackground">@drawable/bgmancha</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:windowContentOverlay">@null</item>
@@ -28,6 +28,16 @@
     </style>
     <style name="TextViewCustomFont">
         <item name="fontPath">fonts/nunito.ttf</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+
     </style>
 
 </resources>

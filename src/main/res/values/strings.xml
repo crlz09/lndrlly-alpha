@@ -9,13 +9,68 @@
     <string name="Profile">Profile</string>
     <string name="Settings">Settings</string>
 
-    <string name="welcome"> Sign up and be part of the Laundrelly Family.\nStart to enjoy our benefits and worry less for\nyour laundry days!</string>
-    <string name="welcomeBack">Sign in with your associate number or your\nemail account and you are ready for more\nclean clothes!</string>
-    <string name="location">Let us know if we can get to you.\nPlease insert your current address and\nspecify your zip code.</string>
-    <string name="verification">We have sent you a code via SMS to verify\nyour account. It can take up to 5 minutes.</string>
+    <!--<string name="welcome"> Sign up and be part of the Laundrelly Family. Start to enjoy our benefits and worry less for your laundry days!</string>-->
+    <string name="verification">We have sent you a code via SMS to verify your account. It can take up to 5 minutes.</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Activity Location -->
+
+    <string name="title_location">Select your residence and continue</string>
+    <string name="location">Let us know if we can get to you. Please insert your current address and specify your zip code.</string>
+    <string name="select_map">Select place by map</string>
+    <string name="your_location">Your location</string>
+    <string name="zip_code">Zip code</string>
+    <string name="accept_term_conditions">Accept Terms and Conditions</string>
+    <string name="term_conditions">Terms and Conditions</string>
+
+    <!--Activity Sing In-->
+    <string name="welcome">Welcome</string>
+    <string name="welcomeBack">Sign in with your associate number or your email account and you are ready for more clean clothes!</string>
+    <string name="enter_number">Enter your phone number</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="need_account">Need an account?</string>
+    <string name="sign_up">Sign up</string>
+
+    <!-- Activity Verification -->
+    <string name="title_verification">Verification</string>
+    <string name="resend">Resend</string>
+    <string name="verify">Verify</string>
+
+    <!-- First Slide -->
+    <string name="title_first_slide">Your laundry easier than ever!</string>
+    <string name="caption_first_slide">Just follow a few steps</string>
+
+    <!-- Second Slide -->
+    <string name="title_second_slide">Start washing!</string>
+    <string name="caption_second_slide">Select what you want to wash and your laundry preferences</string>
+
+    <!-- Third Slide -->
+    <string name="title_third_slide">Just say where\nand when</string>
+    <string name="caption_third_slide">Select the time and location for Pick up and drop off.</string>
+
+    <!-- Last Slide -->
+    <string name="title_last_slide">Enjoy your time</string>
+    <string name="caption_last_slide">Just turn on the notifications and wait for your fresh clothes.</string>
+
+    <!-- Sign up -->
+    <string name="name_sign_up">Name</string>
+    <string name="last_name_sign_up">Last Name</string>
+    <string name="email_sign_up">Email</string>
+    <string name="password_sign_up">Password</string>
+
+    <!-- Laundry-->
+    <string name="washfold_title">Wash and Fold</string>
+    <string name="washfold_desc">Get that special clothes the care they need. They will be shining and maybe even better than new yet!</string>
+    <string name="drycleaning_title">Dry Cleaning</string>
+    <string name="drycleaning_desc">Wash as much as you want, fresh and folded clothes right up to you!</string>
+    <string name="specialgarments_title">Special Garments</string>
+    <string name="specialgarmets_desc">We got your back with all your washables. Comforters, blankets, towels, sneakers and more with our special touch!</string>
+
+    <!-- OrderFlow -->
+    <string name="laundry_preferences_title">How do you like?</string>
+    <string name="laundry_preferences_desc">Your garments are very important to us.
+        Please set up your laundry preferences and let us know about any special instructions.</string>
 
 
 </resources>
